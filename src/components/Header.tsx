@@ -3,7 +3,7 @@ const Header = () => {
     <header className="sticky top-0 z-40 w-full h-20 flex items-center bg-white px-8">
       <nav className="w-full flex justify-between items-center">
         <div className="text-xl sm:text-3xl font-bagelFatOne text-primary">
-          <a href="/">yeojin</a>
+          <a href="/portfolio/">yeojin</a>
         </div>
         <ul className="flex gap-5 text-xs sm:text-xl font-wavvePADO text-header">
           <li>
