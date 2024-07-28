@@ -4,8 +4,7 @@ export const project2 = {
   description:
     "직원 관리 서비스를 주제로 SM Entertainment의 가수들을 관리할 수 있는 관리자 서비스를 만들어 봤습니다. CRUD가 가능하고 메인화면인 직원목록 페이지는 Infinity Scroll을 사용하였고 로딩을 위한 Skeleton UI를 구현해봤습니다.",
 
-  previewUrl:
-    "https://github-production-user-asset-6210df.s3.amazonaws.com/79198245/316311038-93d688c8-47cd-4267-8cf4-10ba50092f2d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240728%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240728T084258Z&X-Amz-Expires=300&X-Amz-Signature=8679e15e1e19bc6f09a01bc37f0e51e4ff2b61fa190b918e80a4d2338d7f16ce&X-Amz-SignedHeaders=host&actor_id=79198245&key_id=0&repo_id=770247898",
+  previewUrl: "https://github.com/KDT1-FE/KDT8-M2/assets/79198245/93d688c8-47cd-4267-8cf4-10ba50092f2d",
   date: "2024년 3월 11일 ~ 3월 24일",
   team: "1인",
   type: "SINGLE",

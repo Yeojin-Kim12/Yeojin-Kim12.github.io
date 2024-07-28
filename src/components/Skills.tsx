@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 interface Image {
@@ -9,13 +9,13 @@ interface Image {
 }
 
 const images: Image[] = [
-  { id: 1, src: "../../public/skills/html5.png", title: "HTML5", explanation: "웹접근성과 표준성을 준수하며 시멘틱 태그를 사용해 마크업 구조를 생각하여 설계할 수 있습니다." },
-  { id: 2, src: "../../public/skills/css3.png", title: "CSS3", explanation: "다양한 레이아웃을 만들고 반응형 웹을 디자인할 수 있습니다." },
-  { id: 3, src: "../../public/skills/js.png", title: "JavaScript", explanation: "동적인 웹 애플리케이션을 개발할 수 있으며 ES6 문법들도 활용할 수 있습니다." },
-  { id: 4, src: "../../public/skills/ts.png", title: "TypeScript", explanation: "정적 타입을 사용하여 코드의 안정성과 가독성을 높여 웹 애플리케이션을 효율적으로 개발할 수 있습니다." },
-  { id: 5, src: "../../public/skills/react.png", title: "React", explanation: "재사용 가능한 컴포넌트를 설계하고 상태 관리를 통해 효율적인 UI를 구현할 수 있습니다." },
-  { id: 6, src: "../../public/skills/tailwind.png", title: "Tailwind", explanation: "빠르고 일관된 스타일링을 적용하며 커스텀 디자인 시스템을 구축할 수 있습니다." },
-  { id: 7, src: "../../public/skills/github&git.png", title: "Git & GitHub", explanation: "Git 명령어를 사용할 수 있으며 GitHub를 통해 협업 프로젝트를 관리할 수 있습니다." },
+  { id: 1, src: "/portfolio/skills/html5.png", title: "HTML5", explanation: "웹접근성과 표준성을 준수하며 시멘틱 태그를 사용해 마크업 구조를 생각하여 설계할 수 있습니다." },
+  { id: 2, src: "/portfolio/skills/css3.png", title: "CSS3", explanation: "다양한 레이아웃을 만들고 반응형 웹을 디자인할 수 있습니다." },
+  { id: 3, src: "/portfolio/skills/js.png", title: "JavaScript", explanation: "동적인 웹 애플리케이션을 개발할 수 있으며 ES6 문법들도 활용할 수 있습니다." },
+  { id: 4, src: "/portfolio/skills/ts.png", title: "TypeScript", explanation: "정적 타입을 사용하여 코드의 안정성과 가독성을 높여 웹 애플리케이션을 효율적으로 개발할 수 있습니다." },
+  { id: 5, src: "/portfolio/skills/react.png", title: "React", explanation: "재사용 가능한 컴포넌트를 설계하고 상태 관리를 통해 효율적인 UI를 구현할 수 있습니다." },
+  { id: 6, src: "/portfolio/skills/tailwind.png", title: "Tailwind", explanation: "빠르고 일관된 스타일링을 적용하며 커스텀 디자인 시스템을 구축할 수 있습니다." },
+  { id: 7, src: "/portfolio/skills/github&git.png", title: "Git & GitHub", explanation: "Git 명령어를 사용할 수 있으며 GitHub를 통해 협업 프로젝트를 관리할 수 있습니다." },
 ];
 
 const Skills = () => {

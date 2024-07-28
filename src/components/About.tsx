@@ -1,10 +1,8 @@
-import React from "react";
-
 const About = () => {
   return (
     <div id="About" className="flex gap-9 mt-12 justify-around px-8">
       <div className="w-[600px] h-[400px] overflow-hidden rounded-xl">
-        <img src="../../public/profile.jpg" about="profile" width="600" height="300" className="mt-[-10%]" />
+        <img src="/portfolio/profile.jpg" about="profile" width="600" height="300" className="mt-[-10%]" />
       </div>
       <div className="flex flex-col justify-center w-2/4">
         <h1 className="font-wavvePADO text-3xl mb-5 text-primary">About Me</h1>

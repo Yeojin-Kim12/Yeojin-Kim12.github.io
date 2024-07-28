@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <section id="Contact" className="mx-auto p-8 text-center mt-14 max-w-screen-md">
