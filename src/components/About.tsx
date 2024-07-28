@@ -1,10 +1,10 @@
 const About = () => {
   return (
-    <div id="About" className="flex gap-9 mt-12 justify-around px-8">
-      <div className="w-[600px] h-[400px] overflow-hidden rounded-xl">
+    <div id="About" className="grid grid-cols-1 lg:grid-cols-2 mt-12 justify-around px-8">
+      <div className="max-w-[600px] max-h-[400px] overflow-hidden rounded-xl my-10 mx-auto lg:mx-5">
         <img src="/portfolio/profile.jpg" about="profile" width="600" height="300" className="mt-[-10%]" />
       </div>
-      <div className="flex flex-col justify-center w-2/4">
+      <div className="flex flex-col justify-center">
         <h1 className="font-wavvePADO text-3xl mb-5 text-primary">About Me</h1>
         <div className="text-xl">
           <p className="mb-2">안녕하세요! 프론트엔드 개발자를 꿈꾸는 김여진입니다.</p>

@@ -2,10 +2,10 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-40 w-full h-20 flex items-center bg-white px-8">
       <nav className="w-full flex justify-between items-center">
-        <div className="text-3xl font-bagelFatOne text-primary">
+        <div className="text-xl sm:text-3xl font-bagelFatOne text-primary">
           <a href="/">yeojin</a>
         </div>
-        <ul className="flex gap-5 text-xl font-wavvePADO text-header">
+        <ul className="flex gap-5 text-xs sm:text-xl font-wavvePADO text-header">
           <li>
             <a href="#About">About</a>
           </li>
